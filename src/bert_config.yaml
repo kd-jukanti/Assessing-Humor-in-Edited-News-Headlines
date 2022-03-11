@@ -1,0 +1,15 @@
+#Config file for BERT model
+dataset:
+  data_dir: /content/drive/MyDrive/Funniness_estimation/data/
+model:
+  name: bert-base-uncased
+  ckpt:
+hyperparameters:
+  epochs: 1
+  LRATE: 8e-3
+  FRATE: 3e-5
+  EPS: 1e-8
+  WU: 0.2
+  WDECAY: 0.005
+  batch_size: 16
+  val_batch_size: 128

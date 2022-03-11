@@ -1,0 +1,23 @@
+#config file for FFNN and RNN models
+dataset:
+  data_dir: /content/drive/MyDrive/Funniness_estimation/data/
+model:
+  name: NN
+  ckpt:
+hyperparameters:
+  lr: 0.145 #0.0001
+  epochs: 50 #50
+  batch_size: 32
+  val_batch_size: 128
+  embedding_dim_NN: 300
+  embedding_dim_RNN: 50
+  hidden_dim_1: 100
+  hidden_dim_2: 50
+  hidden_dim_3: 10
+  hidden_dim: 128
+  fc_output_dim: 32
+  n_out_channels: 100
+  window_size: 3
+  dropout_NN: 0.7
+  dropout_RNN: 0.3
+  steps: 36
